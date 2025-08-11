@@ -2,6 +2,7 @@ import Header from "@/components/header"
 import Dropmenu from "@/components/dropmenu"
 import { Company } from "@/components/company"
 import Landing from "@/components/landing"
+import About from "@/components/about"
 
 export default function Home(){
     return(<div className="flex flex-col justify-center items-center w-full min-h-screen">
@@ -14,7 +15,7 @@ export default function Home(){
         <div className="flex flex-col justify-center items-center w-full mt-[73px] bg-neutral-900">
             <Landing />
             <Company />
-            <div className="w-full min-h-96 bg-white"></div>
+            <About />
         </div>
     </div>)
 }
