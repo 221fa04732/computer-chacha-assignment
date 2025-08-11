@@ -7,7 +7,7 @@ export default function Dropmenu(){
     const [visible, setVisible] = useState<boolean>(false)
     return(<div className="w-full flex flex-col justify-center items-center">
         <div className="flex justify-between items-center h-[73px] w-11/12 py-[16px]">
-            <div className="font-montserrat font-semibold text-[14px]">ERICA JONES</div>
+            <div className="font-montserrat font-semibold text-[14px] text-white">ERICA JONES</div>
             <button onClick={()=>{
                 setVisible(!visible)
             }} className="cursor-pointer">
