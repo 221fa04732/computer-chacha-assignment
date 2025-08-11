@@ -23,7 +23,7 @@ function Menubar({visible} : {visible : boolean}){
     return(<div className={`h-[538px] w-full bg-neutral-900 ${visible ? "block" : "hidden"} relative overflow-hidden -z-20`}>
         <div style={{"background": "linear-gradient(342.27deg, #FFFAEF 24.53%, #FCD68B 37.59%, #F9784C 50.72%, #9C356D 62.85%, #171717 76.83%"}} className="h-[334px] w-full absolute top-[348px] blur-2xl -z-10"></div>
         <div className="h-full w-full flex flex-col justify-between items-center z-10 py-12">
-            <div className="w-11/12 flex flex-col items-start text-[21px] gap-10">
+            <div className="w-11/12 flex flex-col items-start text-[21px] gap-10 text-white">
                 <div className="cursor-pointer">ABOUT ME</div>
                 <div className="cursor-pointer">PORTFOLIO</div>
                 <div className="cursor-pointer">SKILLS</div>
